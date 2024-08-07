@@ -24,8 +24,8 @@ This project is designed for a newly launched cryptocurrency and is an internati
 
 ## Note
 The original source code is stored privately on Mabel Network's own GitHub.
-You can visit the site at [https://mabelnetwork.vercel.app/](https://mabelnetwork.vercel.app/).
+You can visit the site at [https://mabelnetwork.vercel.app/](https://mabelnetwork.vercel.app/)
 
-Since the project is still in development, some code and credentials have been hidden. Therefore, you may encounter errors if you run the project, but you can still review the general code.
+The site is actively in use, so I had to hide some code and credentials. As a result, you may encounter errors if you run the project. However, feel free to review the general code.
 
-Feel free to explore and contribute to this project!
+Feel free to explore and contribute to the project!
