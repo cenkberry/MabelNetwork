@@ -1,0 +1,36 @@
+// Color Classes
+.col-pr {
+  color: var(--col-pr);
+}
+.col-sc {
+  color: var(--col-sc);
+}
+.col-three {
+  color: var(--col-three);
+}
+// Background Classes
+.bg-pr {
+  background-color: var(--col-pr);
+}
+.bg-sc {
+  background-color: var(--col-sc);
+}
+.bg-three {
+  background-color: var(--col-three);
+}
+.bg-trans {
+  background-color: transparent;
+}
+// Border Classes
+.bor-pr {
+  border: var(--size-1) solid var(--col-pr);
+}
+.bor-sc {
+  border: var(--size-1) solid var(--col-sc);
+}
+.bor-three {
+  border: var(--size-1) solid var(--col-three);
+}
+.bor-none {
+  border: none;
+}

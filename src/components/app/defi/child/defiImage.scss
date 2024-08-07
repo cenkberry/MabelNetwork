@@ -1,0 +1,12 @@
+.defiImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--size-20);
+  @media screen and (min-width: $lap) {
+    margin-bottom: 0;
+    > img {
+      border-radius: var(--size-10);
+    }
+  }
+}

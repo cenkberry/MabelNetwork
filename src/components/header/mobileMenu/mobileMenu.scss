@@ -1,0 +1,51 @@
+.mobileMenu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  overflow: hidden;
+  width: 87%;
+  height: 100vh;
+  max-height: 100vh;
+  transition: all 0.3s linear;
+  background-color: var(--col-bg-sc);
+  display: flex;
+  flex-direction: column;
+  .close-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 12px;
+    flex: 0 0 auto;
+  }
+  > ul {
+    flex: 1 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+    width: 100%;
+    padding-bottom: 40px;
+    > li {
+      margin-bottom: var(--size-12);
+      > a {
+        color: var(--col-pr);
+        font-size: var(--size-32);
+      }
+    }
+  }
+  .lang-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+    padding: 12px 4px;
+    > div {
+      width: 100%;
+      justify-content: center;
+      gap: 16px;
+    }
+  }
+}

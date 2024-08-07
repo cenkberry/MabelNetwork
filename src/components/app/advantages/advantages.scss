@@ -1,0 +1,65 @@
+.advantages {
+  &-title {
+    text-align: center;
+    color: var(--col-pr);
+    font-size: var(--size-32);
+    font-weight: 500;
+    margin-bottom: var(--size-16);
+    @media screen and (min-width: $desk) {
+      font-size: var(--size-60);
+      margin-bottom: var(--size-28);
+    }
+  }
+  &-subtitle {
+    text-align: center;
+    color: var(--col-sc);
+    font-size: var(--size-18);
+    font-weight: 500;
+    line-height: 168%;
+    margin-bottom: var(--size-32);
+    @media screen and (min-width: $desk) {
+      padding: 0 10%;
+      margin-bottom: var(--size-80);
+    }
+  }
+  .center {
+    @media screen and (max-width: $lap) {
+      margin-bottom: var(--size-20);
+    }
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: var(--size-30);
+    @media screen and (min-width: $lap) {
+      padding: 0 20px;
+    }
+    @media screen and (min-width: $desk) {
+      padding: 0 60px;
+    }
+    > p {
+      color: var(--col-four);
+      font-size: 20px;
+      font-weight: 600;
+      @media screen and (max-width: $tab) {
+        font-size: 18px;
+        text-align: center;
+      }
+    }
+    > div {
+      display: flex;
+      align-items: center;
+      gap: var(--size-14);
+      color: var(--col-pr);
+      font-size: 16px;
+      @media screen and (max-width: $sm) {
+        font-size: 14px;
+        line-height: 120%;
+      }
+      > svg {
+        flex: 0 0 46px;
+      }
+    }
+  }
+}

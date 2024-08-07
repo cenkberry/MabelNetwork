@@ -1,0 +1,205 @@
+{
+  "header": {
+    "links": {
+      "media": {
+        "title": "Medya",
+        "link": "/#media"
+      },
+      "defi": {
+        "title": "DeFi Nedir?",
+        "link": "/#defi"
+      },
+      "roadmap": {
+        "title": "Yol Haritası",
+        "link": "/#roadmap"
+      },
+      "features": {
+        "title": "Ekonomi",
+        "link": "/#features"
+      },
+      "team": {
+        "title": "Ekibimiz",
+        "link": "/#team"
+      },
+      "contact": {
+        "title": "İletişim",
+        "link": "/#contact"
+      }
+    },
+    "lang": {
+      "otherLang": "EN"
+    },
+    "login": {
+      "loginButton": "Giriş",
+      "emailLabel": "E-mail:",
+      "emailPlaceholder": "Lütfen e-mail adresinizi giriniz",
+      "passwordLabel": "Şifre:",
+      "passwordPlaceholder": "Şifrenizi Giriniz",
+      "binanceLabel": "BNB Smart Adresi:",
+      "binancePlaceholder": "Lütfen BNB Smart adresinizi giriniz",
+      "referenceLabel": "Reference Maili:",
+      "referencePlaceholder": "Referans maili giriniz (varsa)",
+      "geoText": "Sitemizin ana sayfasındaki canlı haritada kullanmak için konum bilginize ihtiyacımız var. Telefondan giriş yapıyorsanız konumunuzu açın. Bu bilgi sadece görsel amaçlı kullanılmakta olup, 'sizin verilerinizi' saklamıyoruz.",
+      "emailError": "- Lütfen geçerli bir e-mail adresi giriniz.",
+      "passwordError": "- Şifreniz 1 büyük harf ve en az 1 sayı içermelidir.",
+      "binanceError": "- Lütfen geçerli bir BNB Smart Adresi girin.",
+      "inUseError": "- Bu adrese ait kullanıcı mevcut, lütfen başka bir mail adresi giriniz.",
+      "locationError": "- Lütfen Konumunuzu Doğrulayın.",
+      "notSigned": "Hala Üye Değil Misin ?",
+      "click": "Tıklayın",
+      "singupText": "Gönder",
+      "loginError": "- Lütfen geçerli bir mail adresi girin veya şifrenizi kontrol edin."
+    },
+    "userPanel": {
+      "mail": "E-mail:",
+      "binance": "BNB Smart Adresi:",
+      "token": "Token Adedi:",
+      "verify": "Hesap Doğrulaması:",
+      "verTrue": "Doğrulanmış",
+      "verFalse": "Doğrulanmamış",
+      "reward": "Günlük Bonusunu Al",
+      "rewardLeft": "Mail doğrulamanızı tamamladıysanız , Günlük Bonus Butonu 24 saat geçtikten sonra aktif olacaktır.",
+      "signout": "Çıkış Yap"
+    }
+  },
+  "adminPanel": {
+    "username": "Admin",
+    "password": "Şifre",
+    "BtnText": "Giriş",
+    "activeUsers": "Aktif Kullanıcı Sayısı",
+    "usersList": "Aktif Kullanıcı Listesi",
+    "userMail": "Mail Adresi",
+    "userToken": "Token Sayısı",
+    "userBinance": "BNB Smart Adresi",
+    "userRef": "Referans Adresi",
+    "userID": "Kullanıcı Numarası"
+  },
+  "footer": {
+    "title": "© 2024 Berry UI. Her Hakkı Saklıdır."
+  },
+  "hero": {
+    "title": "Mabel Token avantajlı ön satışı çok yakında",
+    "subtitle": "Bu çığır açan yolculuğa katılın ve merkeziyetsiz finansın geleceğine ilk yatırım yapanlardan olun. Bir sonraki büyük kripto devriminde erken benimseyenlerden olma şansını kaçırmayın!",
+    "button": "Şimdi Keşfet"
+  },
+  "defi": {
+    "title": "Nedir DeFi?",
+    "subtitle": "Merkeziyetsiz Finans",
+    "items": {
+      "first": {
+        "title": "Akıllı Sözleşme Avantajları",
+        "subtitle": "DeFi, mevcut finansal hizmetleri daha açık, birlikte çalışabilir ve şeffaf bir şekilde çoğaltan ve yenileyen protokoller oluşturmak için akıllı sözleşmeler kullanır."
+      },
+      "second": {
+        "title": "Her Türlü Değer Saklama",
+        "subtitle": "Ademi merkeziyetçilik, sosyo-finansal grupların kendi bankaları olmalarına izin verir, bu da mutlaka parayı değil, her türlü değeri elinde tutmayı sağlar."
+      },
+      "third": {
+        "title": "Bağımsız Yapı",
+        "subtitle": "Algoritmik akıllı sözleşmelerle desteklenen açık, izinsiz ve sansüre dayanıklı finansal protokol sunduğundan, aracılara ve merkezi finansal kuruluşlara olan ihtiyacı ortadan kaldırır."
+      }
+    }
+  },
+  "advantages": {
+    "title": "Üyelik Avantajları",
+    "subtitle": "Üye olarak özel ödüller ve fırsatlara erişim sağlarsınız. Üyelikle birlikte, kayıt olurken, arkadaşlarınızı davet ederken ve günlük girişlerde tokenlerin keyfini çıkarın. Ayrıca, borsalarda işlem yapmaya başladığımızda önemli kazançlar elde etmeyi bekleyin.",
+    "welcome": "Hoş Geldin Bonusu",
+    "welcomeSub": "Kayıt olduğunuzda 50 token hediye olarak verilecektir.",
+    "referral": "Referans Ödülleri",
+    "referralSub": "Sağladığınız referans emailine de 50 token hediye olarak verilecektir.",
+    "daily": "Günlük Ödüller",
+    "dailySub": "Her gün giriş yaparak ve tıklama yaparak 10 token kazanın.",
+    "future": "Gelecekteki Kazançlar",
+    "futureSub": "Borsalarda işlem yapmaya başladığımızda önemli miktarda kazanç elde etme fırsatınız olacak."
+  },
+  "roadmap": {
+    "title": "Yol Haritamız",
+    "subtitle": "Merhaba! Şirketimizin yeni roadmap'inde öncelik verdiğimiz hedefleri ve stratejileri paylaşıyoruz. Bu plan, önümüzdeki dönemde izleyeceğimiz yolu belirlememize yardımcı olacak.",
+    "testnet": {
+      "title": "Testnet 12/2024",
+      "subtitle": "Yeni Testnet'imizin lansmanını heyecanla duyuracağız! Testnet üzerinde en son özelliklerimizi ve güncellemelerimizi güvenle test edeceğiz."
+    },
+    "angelInvestor": {
+      "title": "Melek Yatırımcı 02/2025",
+      "subtitle": "Melek yatırımcı satışımız şimdi yenilikçi projelere destek vermek isteyenler başlayacak! Büyümeye birlikte katkıda bulunmak için bize katılın."
+    },
+    "presale": {
+      "title": "Ön Satış 05/2025",
+      "subtitle": "Projemizin ön satışını başlatılmasını heyecanla duyuracağız! Erken katılım fırsatını kaçırmayın ve yenilikçi vizyonumuzun bir parçası olun."
+    },
+    "mainnet": {
+      "title": "Mainnet 07/2025",
+      "subtitle": "Mainnet'in hazır olacağını büyük heyecan ile duyuracağız! Blockchain teknolojimizin gerçek dünya kullanım senaryolarında gücünü keşfedin ve projemizin büyümesine katkı sağlayın."
+    },
+    "exchange": {
+      "title": "Borsa 09/2025",
+      "subtitle": "Projemizi yakın gelecekte önemli borsalarda listelemeyi planlıyoruz. Detaylar ve ilerleme güncellemeleri için takipte kalın."
+    },
+    "mabelshop": {
+      "title": "Mabel Shop 03/2026",
+      "subtitle": "Mabel Shop'u açmayı planlıyoruz! Şık ve benzersiz ürünlerimizi keşfedecek ve satın almaya başlayabileceksiniz."
+    }
+  },
+  "features": {
+    "title": "Ekonomimiz ve Özellikleri",
+    "subtitle": "Coinimizin benzersiz ekonomik yapısını ve yenilikçi özelliklerini keşfedin. Ekonomimizin sürdürülebilir büyümeyi nasıl sağladığını ve gelişmiş fonksiyonlarımızın kripto para piyasasında bizi nasıl farklı kıldığını öğrenin.",
+    "items": {
+      "ticker": {
+        "title": "Token Sembolü :",
+        "subtitle": "$MBL"
+      },
+      "type": {
+        "title": "Token Türü :",
+        "subtitle": "DeFi Token"
+      },
+      "mine": {
+        "title": "Üretim Türü :",
+        "subtitle": "Tam Üretim"
+      },
+      "price": {
+        "title": "Planlanan Token Fiyatı :",
+        "subtitle": "0.01 $"
+      },
+      "supply": {
+        "title": "Toplam Token Arzı :",
+        "subtitle": "500.000.000"
+      },
+      "maxsupply": {
+        "title": "Maksimum Token Arzı :",
+        "subtitle": "500.000.000"
+      }
+    }
+  },
+  "team": {
+    "title": "Ekibimizle Tanışın!",
+    "subtitle": "Tutkulu, deneyimli ve yaratıcı profesyonellerden oluşan ekibimiz, projemizi en yüksek standartlarda hayata geçirmek için burada.",
+    "titles": {
+      "ceo": "Kurucu Ceo",
+      "dev": "Yazılım",
+      "marketing": "Pazarlama",
+      "accountant": "Muhasebe",
+      "socialmedia": "Sosyal Medya",
+      "hr": "İnsan Kaynakları"
+    }
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Herhangi bir soru veya endişenizle ilgili size yardımcı olmak için buradayız. Lütfen aşağıdaki formu doldurun, ekibimiz en kısa sürede size geri dönecektir.",
+    "sentTitle": "Bize Ulaştığınız İçin Teşekkürler!",
+    "sentSubtitle": "Ekibimiz mesajınızı inceleyip, sorununuz ile ilgili size en kısa sürede geri dönecektir.",
+    "nameTitle": "İsim:",
+    "nameHolder": "İsminizi giriniz",
+    "emailTitle": "E-posta:",
+    "emailHolder": "Geçerli bir e-posta giriniz",
+    "messageTitle": "Mesaj:",
+    "messageHolder": "Mesajınızı yazınız...",
+    "warnName": "- İsim en az 6 karakter olmalıdır.",
+    "warnMail": "- Geçerli bir e-posta adresi olmalıdır.",
+    "warnMessage": "- Mesajınız en az 10 karakter olmalıdır.",
+    "sendText": "Gönder"
+  },
+  "mapChart": {
+    "title": "Mabel Token Kullanıcı Haritası",
+    "subtitle": "Mabel Token Kullanıcılarının Dünya Genelindeki Dağılımını Keşfedin"
+  }
+}

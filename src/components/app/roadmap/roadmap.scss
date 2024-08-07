@@ -1,0 +1,92 @@
+.roadmap {
+  &-title {
+    text-align: center;
+    color: var(--col-pr);
+    font-size: var(--size-32);
+    font-weight: 500;
+    margin-bottom: var(--size-16);
+    @media screen and (min-width: $desk) {
+      font-size: var(--size-60);
+      margin-bottom: var(--size-28);
+    }
+  }
+  &-subtitle {
+    text-align: center;
+    color: var(--col-sc);
+    font-size: var(--size-18);
+    font-weight: 500;
+    line-height: 168%;
+    margin-bottom: var(--size-32);
+    padding: 0 12px;
+    @media screen and (min-width: $desk) {
+      padding: 0 10%;
+      margin-bottom: var(--size-60);
+    }
+  }
+  .items {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: auto;
+    padding-bottom: var(--size-16);
+    @media screen and (min-width: $desk) {
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .item {
+      height: 260px;
+      flex: 0 0 280px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      margin-right: 12px;
+      padding: 30px 20px;
+      padding-bottom: 0;
+      border-radius: 4px;
+      border: 1px solid var(--col-four);
+      &:last-child {
+        margin: 0;
+      }
+      @media screen and (min-width: $lap) {
+        height: 300px;
+      }
+      @media screen and (min-width: $desk) {
+        height: 280px;
+        flex: unset;
+        margin: 0;
+        padding: var(--size-48);
+        padding-bottom: 0;
+        border: none;
+        border-radius: 0;
+        border-left: 1px solid var(--col-four);
+        &:first-child {
+          border-left: none;
+        }
+        &:nth-child(4){
+          border-left: none;
+        }
+        &:nth-child(-n+3){
+          border-bottom: 1px solid var(--col-four);
+        }
+      }
+      > svg {
+        margin-bottom: 20px;
+      }
+      &-title {
+        font-size: var(--size-20);
+        color: var(--col-pr);
+        margin-bottom: 20px;
+      }
+      &-subtitle {
+        color: var(--col-sc);
+        font-size: var(--size-20);
+        line-height: 120%;
+        @media screen and (min-width: $lap) {
+          font-size: var(--size-16);
+        }
+      }
+    }
+  }
+}

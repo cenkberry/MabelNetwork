@@ -1,0 +1,65 @@
+.team {
+  &-title {
+    text-align: center;
+    color: var(--col-pr);
+    font-size: var(--size-32);
+    font-weight: 500;
+    margin-bottom: var(--size-16);
+    @media screen and (min-width: $desk) {
+      font-size: var(--size-60);
+      margin-bottom: var(--size-28);
+    }
+  }
+  &-subtitle {
+    text-align: center;
+    color: var(--col-sc);
+    font-size: var(--size-18);
+    font-weight: 500;
+    line-height: 168%;
+    margin-bottom: var(--size-32);
+    padding: 0 12px;
+    @media screen and (min-width: $desk) {
+      padding: 0 10%;
+      margin-bottom: var(--size-60);
+    }
+  }
+  .items {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: var(--size-16);
+    padding-bottom: var(--size-20);
+    @media screen and (min-width: $lap) {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: unset;
+      column-gap: var(--size-16);
+      row-gap: var(--size-40);
+    }
+    .item {
+      flex: 0 0 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      @media screen and (min-width: $mob) {
+        flex: 0 0 auto;
+      }
+      &-image {
+        margin-bottom: var(--size-20);
+      }
+      &-title {
+        color: var(--col-four);
+        font-size: var(--size-24);
+        margin-bottom: var(--size-8);
+      }
+      &-subtitle {
+        color: var(--col-pr);
+        font-size: var(--size-20);
+      }
+    }
+  }
+}

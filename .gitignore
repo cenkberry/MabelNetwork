@@ -1,0 +1,7 @@
+# ignore ALL .log files
+*.log
+
+# ignore the folders
+.next/
+.vscode/
+node_modules/

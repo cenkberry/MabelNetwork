@@ -1,0 +1,37 @@
+.desktopMenu {
+  > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: var(--size-30);
+    > li {
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 1px;
+        width: 50%;
+        background-color: transparent;
+        transition: all 0.3s linear;
+      }
+      > a {
+        color: var(--col-sc);
+        transition: all 0.3s linear;
+        @media screen and (min-width: $desk) {
+          font-size: var(--size-20);
+        }
+      }
+      &:hover {
+        &:before {
+          background-color: var(--col-pr);
+        }
+        > a {
+          color: var(--col-pr);
+        }
+      }
+    }
+  }
+}

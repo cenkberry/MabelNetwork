@@ -1,0 +1,20 @@
+:root {
+  // Main Colors
+  --col-pr: #ffffff;
+  --col-sc: #9d9fcc;
+  --col-three: #7F38BA;
+  --col-four: #c23893;
+  --col-bg: #12132A;
+  --col-bg-sc: #162446;
+
+  // Define Size System in Root
+  @for $i from 1 through 100 {
+    --size-#{$i}: #{0.75*$i}px;
+  }
+
+  @media screen and (min-width: 769px) {
+    @for $i from 1 through 100 {
+      --size-#{$i}: #{$i}px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+footer {
+  .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--size-20);
+    font-size: var(--size--16);
+    color: var(--col-pr);
+    @media screen and (min-width: $mob) {
+      margin: 0;
+      justify-content: start;
+    }
+  }
+  .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--size-16);
+    @media screen and (min-width: $mob) {
+      justify-content: flex-end;
+    }
+    svg {
+      @media screen and (min-width: $lap) {
+        transition: all 0.3s linear;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

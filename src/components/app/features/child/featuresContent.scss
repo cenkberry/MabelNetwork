@@ -1,0 +1,33 @@
+.featuresContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-16);
+  @media screen and (max-width: $lap) {
+    margin-top: var(--size-24);
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    gap: var(--size-8);
+    > div {
+      font-size: var(--size-20);
+      color: var(--col-pr);
+      @media screen and (max-width: $tab) {
+        font-weight: 500;
+      }
+      @media screen and (max-width: $xxs) {
+        font-size: var(--size-17);
+      }
+    }
+    > p {
+      font-size: var(--size-20);
+      color: var(--col-four);
+      @media screen and (max-width: $tab) {
+        font-weight: 500;
+      }
+      @media screen and (max-width: $xxs) {
+        font-size: var(--size-17);
+      }
+    }
+  }
+}

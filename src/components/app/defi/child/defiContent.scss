@@ -1,0 +1,64 @@
+.defiContent {
+  @media screen and (min-width: $lap) {
+    padding-left: var(--size-20);
+  }
+  @media screen and (min-width: $desk) {
+    padding-left: var(--size-60);
+  }
+  &-title {
+    font-size: var(--size-24);
+    color: var(--col-four);
+    text-align: center;
+    margin-bottom: var(--size-7);
+    @media screen and (min-width: $lap) {
+      text-align: left;
+      font-size: var(--size-20);
+    }
+  }
+  &-subtitle {
+    font-size: var(--size-32);
+    color: var(--col-pr);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: var(--size-32);
+    @media screen and (min-width: $lap) {
+      text-align: left;
+    }
+    @media screen and (min-width: $desk) {
+      font-size: var(--size-48);
+    }
+  }
+  .feature {
+    margin-bottom: var(--size-20);
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .title {
+      display: flex;
+      align-items: center;
+      gap: var(--size-8);
+      margin-bottom: var(--size-12);
+      > span {
+        font-size: var(--size-18);
+        font-weight: 500;
+        color: var(--col-pr);
+        z-index: 2;
+      }
+    }
+    .subtitle {
+      > span {
+        color: var(--col-sc);
+        font-size: var(--size-18);
+        font-weight: 500;
+        line-height: 168%;
+        @media screen and (min-width: $lap) {
+          font-weight: 400;
+          font-size: var(--size-14);
+        }
+        @media screen and (min-width: $big) {
+          font-size: var(--size-16);
+        }
+      }
+    }
+  }
+}

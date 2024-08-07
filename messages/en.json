@@ -1,0 +1,205 @@
+{
+  "header": {
+    "links": {
+      "media": {
+        "title": "Media",
+        "link": "/#media"
+      },
+      "defi": {
+        "title": "DeFinance",
+        "link": "/#defi"
+      },
+      "roadmap": {
+        "title": "Roadmap",
+        "link": "/#roadmap"
+      },
+      "features": {
+        "title": "Features",
+        "link": "/#features"
+      },
+      "team": {
+        "title": "Team",
+        "link": "/#team"
+      },
+      "contact": {
+        "title": "Contact",
+        "link": "/#contact"
+      }
+    },
+    "lang": {
+      "otherLang": "TR"
+    },
+    "login": {
+      "loginButton": "Login",
+      "emailLabel": "E-mail:",
+      "emailPlaceholder": "Please enter your e-mail",
+      "passwordLabel": "password:",
+      "passwordPlaceholder": "Enter a password",
+      "binanceLabel": "BNB Smart Address:",
+      "binancePlaceholder": "Please enter your BNB Smart Address",
+      "referenceLabel": "Reference Mail:",
+      "referencePlaceholder": "Enter a reference mail (if available)",
+      "geoText": "We need your location information to use the live map on our homepage. If you are accessing from a mobile phone, please enable your location. This information is used for visual purposes only, and we do not store 'your data'.",
+      "emailError": "- Please enter a valid e-mail",
+      "passwordError": "- Password must contain at least one uppercase letter and one number.",
+      "binanceError": "- Please enter a valid BNB Smart Address.",
+      "inUseError": "- This e-mail already in use, please choose a different email.",
+      "locationError": "- Please confirm your location.",
+      "notSigned": "Still Not Signed ?",
+      "click": "Click Here",
+      "singupText": "Sign Up",
+      "loginError": "- Please enter a valid e-mail or check your password"
+    },
+    "userPanel": {
+      "mail": "E-mail:",
+      "binance": "BNB Smart Address:",
+      "token": "Your Token Amount:",
+      "verify": "Account Verification:",
+      "verTrue": "Verified",
+      "verFalse": "Not Verified",
+      "reward": "Claim Your Daily Bonus",
+      "rewardLeft": "If you have completed your email verification, Daily Bonus Button will be active after 24 hours.",
+      "signout": "Sign Out"
+    }
+  },
+  "adminPanel": {
+    "username": "Admin",
+    "password": "Password",
+    "BtnText": "Enter",
+    "activeUsers": "Active User Number",
+    "usersList": "Active User List",
+    "userMail": "Mail Address",
+    "userToken": "Token Quantity",
+    "userBinance": "BNB Smart Address",
+    "userRef": "Reference Address",
+    "userID": "User ID"
+  },
+  "footer": {
+    "title": "© 2024 Berry UI. All rights reserved."
+  },
+  "hero": {
+    "title": "Mabel Token Presale is starting soon!",
+    "subtitle": "Join us on this groundbreaking journey and be among the first to invest in the future of decentralized finance. Don't miss your shot to be an early adopter in the next big crypto revolution!",
+    "button": "Explore Now"
+  },
+  "defi": {
+    "title": "What is DeFi",
+    "subtitle": "Decentralized Finance",
+    "items": {
+      "first": {
+        "title": "Smart Contracts Innovation",
+        "subtitle": "DeFi uses smart contracts to create and innovate protocols that replicate existing financial services in a more open, interoperable, and transparent manner."
+      },
+      "second": {
+        "title": "Empowering Decentralization",
+        "subtitle": "Decentralization allows socio-financial groups to be their own banks, enabling them to hold not just money but any form of value."
+      },
+      "third": {
+        "title": "Intermediary-Free Finance",
+        "subtitle": "By offering an open, permissionless, and censorship-resistant financial protocol supported by algorithmic smart contracts, it eliminates the need for intermediaries and centralized financial institutions."
+      }
+    }
+  },
+  "advantages": {
+    "title": "Membership Benefits",
+    "subtitle": "As a member, you gain access to exclusive rewards and opportunities. Enjoy tokens for signing up, referring friends, and daily logins. Plus, look forward to substantial earnings when we start trading on the exchanges.",
+    "welcome": "Welcome Bonus",
+    "welcomeSub": "Receive 50 tokens as a gift upon signing up.",
+    "referral": "Referral Rewards",
+    "referralSub": "The referral email you provide will also receive 50 tokens as a gift.",
+    "daily": "Daily Rewards",
+    "dailySub": "Earn 10 tokens each day you log in and click.",
+    "future": "Future Earnings",
+    "futureSub": "Earn 10 tokens each day you log in and click."
+  },
+  "roadmap": {
+    "title": "Our Roadmap",
+    "subtitle": "Hello! We are sharing the priorities and strategies outlined in our new roadmap. This plan will guide us through the path we aim to follow in the upcoming period.",
+    "testnet": {
+      "title": "Testnet 12/2024",
+      "subtitle": " We are excited to announce the launch of our new testnet! On the testnet, we will safely test our latest features and updates."
+    },
+    "angelInvestor": {
+      "title": "Angel Investor 02/2025",
+      "subtitle": "Our angel investor sale is now open for those looking to support innovative projects! Join us in contributing to growth together."
+    },
+    "presale": {
+      "title": "Presale 05/2025",
+      "subtitle": "We are excited to announce the launch of our project's presale! Don't miss out on the opportunity for early participation and be part of our innovative vision."
+    },
+    "mainnet": {
+      "title": "Mainnet 07/2025",
+      "subtitle": "We are thrilled to announce that our mainnet wiil be ready! Explore the power of our blockchain technology in real-world use cases and contribute to the growth of our project."
+    },
+    "exchange": {
+      "title": "Exchange 09/2025",
+      "subtitle": "We plan to list our project on major exchanges in the near future. Stay updated for details and progress updates."
+    },
+    "mabelshop": {
+      "title": "Mabel Shop 03/2026",
+      "subtitle": "We plan to open Mabel Shop soon! You will soon discover and start purchasing our stylish and unique products."
+    }
+  },
+  "features": {
+    "title": "Tokenomics & Features",
+    "subtitle": "Discover the unique economic structure and innovative features of our coin. Learn how our tokenomics ensures sustainable growth and how our advanced functionalities set us apart in the cryptocurrency market.",
+    "items": {
+      "ticker": {
+        "title": "Token Ticker :",
+        "subtitle": "$MBL"
+      },
+      "type": {
+        "title": "Token Type :",
+        "subtitle": "DeFi Token"
+      },
+      "mine": {
+        "title": "Mine Status :",
+        "subtitle": "Premined"
+      },
+      "price": {
+        "title": "Planned Token Price :",
+        "subtitle": "0.01 $"
+      },
+      "supply": {
+        "title": "Total Token Supply :",
+        "subtitle": "500.000.000"
+      },
+      "maxsupply": {
+        "title": "Max Token Supply :",
+        "subtitle": "500.000.000"
+      }
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Our passionate, experienced, and creative professionals are here to bring our project to life with the highest standards.",
+    "titles": {
+      "ceo": "Founder & Ceo",
+      "dev": "Developer",
+      "marketing": "Marketing",
+      "accountant": "Accountant",
+      "socialmedia": "Social Media",
+      "hr": "Human Resources"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to assist you with any inquiries or concerns. Please fill out the form below, and our team will get back to you as soon as possible.",
+    "sentTitle": "Thank You for Reaching Out!",
+    "sentSubtitle": "Our team will review your message and get back to you shortly with a response to address your inquiry or concern.",
+    "nameTitle": "Name:",
+    "nameHolder": "Enter your name",
+    "emailTitle": "E-mail:",
+    "emailHolder": "Enter a valid e-mail",
+    "messageTitle": "Message:",
+    "messageHolder": "Write your message...",
+    "warnName": "- Name must be at least 6 characters long.",
+    "warnMail": "- It should be a valid email address.",
+    "warnMessage": "- Your message must be at least 10 characters long.",
+    "sendText": "Send Now"
+  },
+  "mapChart": {
+    "title": "Mabel Token Holders Map",
+    "subtitle": "Explore the Global Distribution of Mabel Token Holders"
+  }
+}

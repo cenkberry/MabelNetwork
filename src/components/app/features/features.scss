@@ -1,0 +1,26 @@
+.features {
+  &-title {
+    text-align: center;
+    color: var(--col-pr);
+    font-size: var(--size-32);
+    font-weight: 500;
+    margin-bottom: var(--size-16);
+    @media screen and (min-width: $desk) {
+      font-size: var(--size-60);
+      margin-bottom: var(--size-28);
+    }
+  }
+  &-subtitle {
+    text-align: center;
+    color: var(--col-sc);
+    font-size: var(--size-18);
+    font-weight: 500;
+    line-height: 168%;
+    margin-bottom: var(--size-32);
+    padding: 0 12px;
+    @media screen and (min-width: $desk) {
+      padding: 0 10%;
+      margin-bottom: var(--size-60);
+    }
+  }
+}

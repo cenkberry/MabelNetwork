@@ -1,0 +1,76 @@
+@import "./_root.scss";
+@import "./_reset.scss";
+@import "./color.scss";
+@import "./general.scss";
+@import "./flexbox.scss";
+@import "./grid.scss";
+@import "./elements.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-size: var(--size-16);
+  line-height: 1;
+  background-color: var(--col-bg);
+  color: var(--col-pr);
+  @media screen and (min-width: $lap) {
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--col-four);
+      outline: 1px solid var(--col-four);
+    }
+    div {
+      &::-webkit-scrollbar {
+        height: 2px;
+      }
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--col-four);
+        outline: 1px solid var(--col-four);
+      }
+    }
+  }
+  &.overlay-active {
+    max-height: 100vh;
+    overflow: hidden;
+  }
+}
+
+.spinner {
+  width: 150px;
+  height: 150px;
+}
+
+section {
+  .frameScroll {
+    position: relative;
+    opacity: 0;
+    transform: scale(0.9);
+    animation: sectionAnimation linear forwards;
+    animation-timeline: view();
+    animation-range: 5% 15%;
+  }
+}
+
+@keyframes sectionAnimation {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

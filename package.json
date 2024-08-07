@@ -1,0 +1,38 @@
+{
+  "name": "mabel-network",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@firebase/firestore": "^4.6.4",
+    "d3-geo-projection": "^4.0.0",
+    "firebase": "^10.12.3",
+    "next": "14.2.3",
+    "next-intl": "^3.15.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-firebase-hooks": "^5.1.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/react": "18.3.3",
+    "@types/react-slick": "^0.23.13",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "react-simple-maps": "^3.0.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.77.2",
+    "sass-loader": "^14.2.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0"
+  }
+}

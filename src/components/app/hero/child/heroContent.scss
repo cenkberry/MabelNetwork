@@ -1,0 +1,75 @@
+.hero-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--size-16);
+  &::before {
+    content: "";
+    display: none;
+    position: absolute;
+    z-index: -1;
+    top: -20%;
+    left: 0;
+    background-color: var(--col-three);
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    filter: blur(200px);
+    animation: beforeFrame 5s linear infinite;
+    @media screen and (min-width: $lap) {
+      display: block;
+    }
+  }
+  &-arrow {
+    display: none;
+    position: absolute;
+    top: -15%;
+    right: 10%;
+    z-index: 0;
+    width: max-content;
+    @media screen and (min-width: $desk) {
+      display: block;
+    }
+  }
+  &-title {
+    margin-top: 12px;
+    font-size: var(--size-40);
+    color: var(--col-pr);
+    @media screen and (max-width: $mob) {
+      padding: 0 var(--size-18);
+    }
+    @media screen and (min-width: $lap) {
+      margin-top: 0;
+      font-size: var(--size-45);
+    }
+    @media screen and (min-width: $desk) {
+      font-size: var(--size-90);
+    }
+  }
+  &-subtitle {
+    font-size: var(--size-18);
+    color: var(--col-sc);
+    line-height: 168%;
+  }
+  @media screen and (min-width: $desk) {
+    align-items: start;
+    justify-content: start;
+    gap: var(--size-52);
+    text-align: left;
+  }
+}
+
+@keyframes beforeFrame {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

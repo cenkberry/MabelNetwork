@@ -1,0 +1,61 @@
+.mapChart {
+  &-title {
+    text-align: center;
+    color: var(--col-pr);
+    font-size: var(--size-32);
+    font-weight: 500;
+    margin-bottom: var(--size-16);
+    @media screen and (min-width: $desk) {
+      font-size: var(--size-60);
+      margin-bottom: var(--size-28);
+    }
+  }
+  &-subtitle {
+    text-align: center;
+    color: var(--col-sc);
+    font-size: var(--size-18);
+    font-weight: 500;
+    line-height: 168%;
+    margin-bottom: var(--size-8);
+    padding: 0 12px;
+    @media screen and (min-width: $desk) {
+      padding: 0 10%;
+    }
+  }
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .rsm-geography {
+    outline: none !important;
+  }
+  .rsm-geographies {
+    outline: none !important;
+    fill: var(--col-four);
+  }
+  .rsm-svg {
+    position: relative;
+    margin-top: -5%;
+    @media screen and (min-width: $lap) {
+      margin-top: -3%;
+    }
+  }
+  .rsm-marker{
+    circle {
+      transform: scale(1);
+      animation: blink 1s linear infinite;
+    }
+  }
+}
+
+@keyframes blink {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

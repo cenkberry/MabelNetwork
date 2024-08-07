@@ -1,0 +1,313 @@
+// Display
+.db {
+  display: block;
+}
+.dn {
+  display: none;
+}
+.dib {
+  display: inline-block;
+}
+
+// Grid Classes
+.grid {
+  display: grid;
+}
+.pic {
+  place-items: center;
+}
+
+@media screen and (max-width: $xxs) {
+  .xxs-db {
+    display: block;
+  }
+  .xxs-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $sm) {
+  .sm-db {
+    display: block;
+  }
+  .sm-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $mob) {
+  .mob-db {
+    display: block;
+  }
+  .mob-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $tab) {
+  .tab-db {
+    display: block;
+  }
+  .tab-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $lap) {
+  .lap-db {
+    display: block;
+  }
+  .lap-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $desk) {
+  .desk-db {
+    display: block;
+  }
+  .desk-dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: $big) {
+  .big-db {
+    display: block;
+  }
+  .big-dn {
+    display: none;
+  }
+}
+
+// Positions
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}
+.pos-fixed {
+  position: fixed;
+}
+.pos-sticky {
+  position: sticky;
+}
+.pos-static {
+  position: static;
+}
+
+// Overflow
+.over-hidden {
+  overflow: hidden;
+}
+.over-auto {
+  overflow: auto;
+}
+.over-scroll {
+  overflow: scroll;
+}
+.over-x-auto {
+  overflow-x: auto;
+}
+.over-y-auto {
+  overflow-x: auto;
+}
+
+// Text Align
+.tal {
+  text-align: left;
+}
+.tac {
+  text-align: center;
+}
+.tar {
+  text-align: right;
+}
+
+// Cursor
+.cur-point {
+  cursor: pointer;
+}
+.cur-no {
+  cursor: no-drop;
+}
+
+// Text Decoration
+.text-under {
+  text-decoration: underline;
+}
+
+// Font Size
+@for $i from 1 through 100 {
+  .fs-#{$i} {
+    font-size: var(--size-#{$i});
+  }
+}
+
+// Font Weight
+@for $i from 1 through 9 {
+  .fw-#{$i*100} {
+    font-weight: $i*100;
+  }
+}
+
+// Line Height
+@for $i from 10 through 12 {
+  $lh-value: $i * 10;
+  
+  .lh-#{$lh-value} {
+    line-height: percentage($lh-value / 100);
+  }
+}
+
+// Z-index
+@for $i from 0 through 10 {
+  .z-#{$i} {
+    z-index: $i;
+  }
+}
+
+// Opacity
+@for $i from 0 through 1 {
+  .op-#{$i} {
+    opacity: $i; 
+  }
+}
+
+// Order
+@for $i from 1 through 12 {
+  .order-#{$i} {
+    order: $i;
+  }
+}
+
+// Offset
+@for $i from 1 through 11 {
+  .offset-#{$i} {
+    margin-left: calc((100% / 12) * $i);
+  }
+}
+
+// Radius
+@for $i from 0 through 100 {
+  .rad-#{$i} {
+    border-radius: var(--size-#{$i});
+  }
+}
+
+// Padding
+@for $i from 0 through 100 {
+  .p-#{$i} {
+    padding: var(--size-#{$i});
+  }
+}
+
+// Padding Top
+@for $i from 0 through 100 {
+  .pt-#{$i} {
+    padding-top: var(--size-#{$i});
+  }
+}
+
+// Padding Left
+@for $i from 0 through 100 {
+  .pl-#{$i} {
+    padding-left: var(--size-#{$i});
+  }
+}
+
+// Padding Right
+@for $i from 0 through 100 {
+  .pr-#{$i} {
+    padding-right: var(--size-#{$i});
+  }
+}
+
+// Padding Bottom
+@for $i from 0 through 100 {
+  .pb-#{$i} {
+    padding-bottom: var(--size-#{$i});
+  }
+}
+
+// Padding X Axis
+@for $i from 0 through 100 {
+  .px-#{$i} {
+    padding-left: var(--size-#{$i});
+    padding-right: var(--size-#{$i});
+  }
+}
+
+// Padding Y Axis
+@for $i from 0 through 100 {
+  .py-#{$i} {
+    padding-top: var(--size-#{$i});
+    padding-bottom: var(--size-#{$i});
+  }
+}
+
+// Margin
+@for $i from 0 through 100 {
+  .m-#{$i} {
+    margin: var(--size-#{$i});
+  }
+}
+
+// Margin Top
+@for $i from 0 through 100 {
+  .mt-#{$i} {
+    margin-top: var(--size-#{$i});
+  }
+}
+
+// Margin Left
+@for $i from 0 through 100 {
+  .ml-#{$i} {
+    margin-left: var(--size-#{$i});
+  }
+}
+
+// Margin Right
+@for $i from 0 through 100 {
+  .mr-#{$i} {
+    margin-right: var(--size-#{$i});
+  }
+}
+
+// Margin Bottom
+@for $i from 0 through 100 {
+  .mb-#{$i} {
+    margin-bottom: var(--size-#{$i});
+  }
+}
+
+// Margin X Axis
+@for $i from 0 through 100 {
+  .mx-#{$i} {
+    margin-left: var(--size-#{$i});
+    margin-right: var(--size-#{$i});
+  }
+}
+
+// Margin Y Axis
+@for $i from 0 through 100 {
+  .my-#{$i} {
+    margin-top: var(--size-#{$i});
+    margin-bottom: var(--size-#{$i});
+  }
+}
+
+// Width Options
+@for $i from 1 through 100 {
+  .w-#{$i} {
+    width: var(--size-#{$i});
+  }
+}
+
+// Height Options
+@for $i from 1 through 100 {
+  .h-#{$i} {
+    height: var(--size-#{$i});
+  }
+}

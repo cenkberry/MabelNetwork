@@ -1,0 +1,61 @@
+.featuresChart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    @media screen and (min-width: $lap) {
+      transform: rotateX(40deg) rotate(-20deg);
+      animation: chartAnimation 10s linear infinite;
+    }
+    @media screen and (max-width: $mob) {
+      width: 90%;
+    }
+  }
+  &:before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70%;
+    width: 70%;
+    filter: blur(100px);
+    background-color: var(--col-four);
+    animation: backAnimation 10s linear infinite;
+  }
+}
+
+@keyframes backAnimation {
+  0% {
+    height: 70%;
+    width: 70%;
+  }
+  50% {
+    height: 50%;
+    width: 50%;
+  }
+  100% {
+    height: 70%;
+    width: 70%;
+  }
+}
+
+@keyframes chartAnimation {
+  0% {
+    transform: rotateX(40deg) rotate(-20deg);
+  }
+  25% {
+    transform: rotateX(40deg) rotate(0deg);
+  }
+  50% {
+    transform: rotateX(40deg) rotate(20deg);
+  }
+  75% {
+    transform: rotateX(40deg) rotate(0deg);
+  }
+  100% {
+    transform: rotateX(40deg) rotate(-20deg);
+  }
+}

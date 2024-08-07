@@ -1,0 +1,306 @@
+// Grid System
+.container {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 6px;
+  @media screen and (min-width: $lap) {
+    padding: 0 $gutter;
+    max-width: calc($container + 2 * $gutter);
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -6px;
+  margin-left: -6px;
+  .box,
+  [class*="box-"] {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  > * {
+    flex-shrink: 0;
+    width: 100%;
+  }
+  @media screen and (min-width: $lap) {
+    margin-right: calc(-1 * $gutter/2);
+    margin-left: calc(-1 * $gutter/2);
+    .box,
+    [class*="box-"] {
+      padding-right: calc($gutter/2);
+      padding-left: calc($gutter/2);
+    }
+  }
+}
+
+// Box System
+.box {
+  flex: 1 0 0;
+  &-auto {
+    width: unset;
+    flex: 0 0 auto;
+  }
+}
+
+// Box Size Definition
+@for $i from 1 through 12 {
+  .box-#{$i} {
+    flex: 0 0 auto;
+    width: calc(100% / 12 * $i) !important;
+  }
+}
+
+// Media Queries 
+@media (min-width: $sm) {
+  // Box
+  @for $i from 1 through 12 {
+    .box-sm-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  
+  // Grid 
+  @for $i from 1 through 12 {
+    .grid-sm-#{$i} {
+      grid-template-columns: repeat($i, 1fr);
+    }
+  }
+
+  // Span
+  @for $i from 1 through 12 {
+    .span-sm-#{$i} {
+      grid-column: span $i;
+    }
+  }
+
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-sm-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  
+  // Order
+  @for $i from 1 through 12 {
+    .order-sm-#{$i} {
+      order: $i;
+    }
+  }
+
+}
+@media (min-width: $mob) {
+  // Box
+  @for $i from 1 through 12 {
+    .box-mob-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  
+  // Grid 
+  @for $i from 1 through 12 {
+    .grid-mob-#{$i} {
+      grid-template-columns: repeat($i, 1fr);
+    }
+  }
+
+  // Span
+  @for $i from 1 through 12 {
+    .span-mob-#{$i} {
+      grid-column: span $i;
+    }
+  }
+
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-mob-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  
+  // Order
+  @for $i from 1 through 12 {
+    .order-mob-#{$i} {
+      order: $i;
+    }
+  }
+}
+@media (min-width: $tab) {
+  // Box
+  @for $i from 1 through 12 {
+    .box-tab-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  
+  // Grid 
+  @for $i from 1 through 12 {
+    .grid-tab-#{$i} {
+      grid-template-columns: repeat($i, 1fr);
+    }
+  }
+
+  // Span
+  @for $i from 1 through 12 {
+    .span-tab-#{$i} {
+      grid-column: span $i;
+    }
+  }
+
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-tab-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  
+  // Order
+  @for $i from 1 through 12 {
+    .order-tab-#{$i} {
+      order: $i;
+    }
+  }
+}
+@media (min-width: $lap) {
+  // Box
+  @for $i from 1 through 12 {
+    .box-lap-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  
+  // Grid 
+  @for $i from 1 through 12 {
+    .grid-lap-#{$i} {
+      grid-template-columns: repeat($i, 1fr);
+    }
+  }
+
+  // Span
+  @for $i from 1 through 12 {
+    .span-lap-#{$i} {
+      grid-column: span $i;
+    }
+  }
+
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-lap-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  
+  // Order
+  @for $i from 1 through 12 {
+    .order-lap-#{$i} {
+      order: $i;
+    }
+  }
+}
+@media (min-width: $desk) {
+  // Box
+  @for $i from 1 through 12 {
+    .box-desk-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  
+  // Grid 
+  @for $i from 1 through 12 {
+    .grid-desk-#{$i} {
+      grid-template-columns: repeat($i, 1fr);
+    }
+  }
+
+  // Span
+  @for $i from 1 through 12 {
+    .span-desk-#{$i} {
+      grid-column: span $i;
+    }
+  }
+
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-desk-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  
+  // Order
+  @for $i from 1 through 12 {
+    .order-desk-#{$i} {
+      order: $i;
+    }
+  }
+}
+@media (min-width: $big) {
+  // Box
+  @for $i from 1 through 12 {
+    .box-big-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  
+  // Grid 
+  @for $i from 1 through 12 {
+    .grid-big-#{$i} {
+      grid-template-columns: repeat($i, 1fr);
+    }
+  }
+
+  // Span
+  @for $i from 1 through 12 {
+    .span-big-#{$i} {
+      grid-column: span $i;
+    }
+  }
+
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-big-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  
+  // Order
+  @for $i from 1 through 12 {
+    .order-big-#{$i} {
+      order: $i;
+    }
+  }
+}
+
+// Grid Template
+@for $i from 1 through 12 {
+  .grid-#{$i} {
+    grid-template-columns: repeat($i, 1fr);
+  }
+}
+
+// Grid Span
+@for $i from 1 through 12 {
+  .span-#{$i} {
+    grid-column: span $i;
+  }
+}
+
+// Grid Row Gap
+@for $i from 1 through 100 {
+  .row-gap-#{$i} {
+    grid-row-gap: var(--size-#{$i});
+  }
+}
+
+// Grid Column Gap
+@for $i from 1 through 100 {
+  .col-gap-#{$i} {
+    grid-column-gap: var(--size-#{$i});
+  }
+}

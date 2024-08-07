@@ -1,0 +1,68 @@
+.panel {
+  padding-top: var(--size-20);
+  .item {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--size-18);
+    gap: 8px;
+    color: var(--col-sc);
+    margin-bottom: var(--size-32);
+    @media screen and (max-width: $lap) {
+      font-size: var(--size-20);
+    }
+    > div {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      color: var(--col-pr);
+      min-height: var(--size-20);
+    }
+  }
+}
+
+.panel-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--size-18);
+  .rewardButton {
+    min-height: 42px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 16px;
+    padding: var(--size-12);
+    border-radius: 4px;
+    color: var(--col--pr);
+    background-color: green;
+    &.disabled {
+      background-color: var(--col-four);
+      cursor: not-allowed;
+      pointer-events: none;
+      text-align: center;
+      padding: 12px 10%;
+      @media screen and (min-width: $lap) {
+        padding: 12px;
+      }
+    }
+  }
+}
+
+@keyframes rewardIcon {
+  0% {
+    transform: scale(1);
+    padding: 0;
+  }
+  50% {
+    margin: 0 4px;
+    transform: scale(1.2);
+  }
+  100% {
+    padding: 0;
+    transform: scale(1);
+  }
+}
