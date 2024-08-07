@@ -18,7 +18,6 @@ This project is designed for a newly launched cryptocurrency and is an internati
 
 ## Project Highlights
 - The project is an international initiative.
-- Fully developed by a single developer.
 - Supports English and Turkish languages.
 - Incorporates a comprehensive user and admin management system.
 - Provides a rewarding system for user engagement and referrals.
