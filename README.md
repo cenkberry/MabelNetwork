@@ -1,4 +1,4 @@
-# Cryptocurrency Project
+# Mabel Network Project
 
 ## Overview
 This project is designed for a newly launched cryptocurrency and is an international platform. The entire application is fully coded by me as a full-stack project.
@@ -24,6 +24,9 @@ This project is designed for a newly launched cryptocurrency and is an internati
 - Provides a rewarding system for user engagement and referrals.
 
 ## Note
-The original source code is stored privately on Mabel Network's own GitHub. You can visit the site at [https://mabelnetwork.vercel.app/](https://mabelnetwork.vercel.app/).
+The original source code is stored privately on Mabel Network's own GitHub.
+You can visit the site at [https://mabelnetwork.vercel.app/](https://mabelnetwork.vercel.app/).
+
+Since the project is still in development, some code and credentials have been hidden. Therefore, you may encounter errors if you run the project, but you can still review the general code.
 
 Feel free to explore and contribute to this project!
