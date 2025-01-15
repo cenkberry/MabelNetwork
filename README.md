@@ -1,6 +1,4 @@
-# Mabel Network Project
-
-## Overview
+## Mabel Network Project
 This project is designed for a newly launched cryptocurrency and is an international platform. The entire application is fully coded by me as a full-stack project.
 
 ## Technologies Used
@@ -9,7 +7,13 @@ This project is designed for a newly launched cryptocurrency and is an internati
 - i18n
 - React simple maps
 - Emailjs
-- Additional packages to enhance functionality
+
+## Explore the demo project by clicking on this link
+https://mabel-project.vercel.app
+
+## You can visit the original website through this link
+https://mabelnetwork.com
+https://mabelnetwork.org
 
 ## Features
 - Multilingual Support: The platform supports both English and Turkish, leveraging the `i18n` package.
@@ -24,8 +28,3 @@ This project is designed for a newly launched cryptocurrency and is an internati
 
 ## Note
 The original source code is stored privately on Mabel Network's own GitHub.
-You can visit the site at [https://mabelnetwork.vercel.app/](https://mabelnetwork.vercel.app/)
-
-The site is actively in use, so I had to hide some code and credentials. As a result, you may encounter errors if you run the project. However, feel free to review the general code.
-
-Feel free to explore and contribute to the project!
